@@ -1,8 +1,15 @@
 package cn.sinosoft.processrule.helper.bean;
 
+import java.io.Serializable;
+
 import com.sinosoft.bpm.rule.bean.model.RuleProcessInputXOM;
 
-public class InitAfter {
+public class InitAfter implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public static void initComplate(RuleProcessInputXOM inputXOM){
 		
 		if(null == inputXOM.getRuleCarAppendlossApproval().getIsAgreeVeripOpinion() || "".equals(inputXOM.getRuleCarAppendlossApproval().getIsAgreeVeripOpinion())){

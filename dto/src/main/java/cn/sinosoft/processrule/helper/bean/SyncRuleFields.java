@@ -1,12 +1,21 @@
 package cn.sinosoft.processrule.helper.bean;
 
-public class SyncRuleFields {
+import java.io.Serializable;
+
+public class SyncRuleFields implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String taskCatalog = "";
 	private String taskCatalogName = "";
 	private String taskType = "";
 	private String taskTypeName = "";
 	private String skillGroupCode = "";
 	private String skillGroupName = "";
+
+	
+	public SyncRuleFields() {}
 
 	public String getTaskCatalog() {
 		return taskCatalog;

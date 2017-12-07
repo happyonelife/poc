@@ -1,6 +1,12 @@
 package cn.sinosoft.processrule.helper.bean;
 
-public class ProcessRuleFields {
+import java.io.Serializable;
+
+public class ProcessRuleFields implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String taskType = "";
 	private String claimComCode = "";
 	private String handleCode = "";
@@ -23,6 +29,8 @@ public class ProcessRuleFields {
 	private String powerLevel = "";
 	private boolean inPower = false;
 	
+	public ProcessRuleFields() {}
+
 	public void initTask(String taskTypeObject, String taskTypeObjectMethod, String taskCatalogObject, String taskCatalogObjectMethod){
 		this.taskTypeObject = taskTypeObject;
 		this.taskTypeObjectMethod  = taskTypeObjectMethod;

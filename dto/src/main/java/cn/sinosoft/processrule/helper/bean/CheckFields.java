@@ -1,12 +1,18 @@
 package cn.sinosoft.processrule.helper.bean;
 
+import java.io.Serializable;
+
 /**
  * 勘察drools赋值使用类
  * 
  * @author JinBao
  *
  */
-public class CheckFields {
+public class CheckFields implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String independentProcessName = "";
 	private String taskType = "";
 	private String taskClassification = "";
@@ -17,6 +23,7 @@ public class CheckFields {
 	private String isAutoComplete = "N";
 	private String userCode = "";
 	
+	public CheckFields() {}
 
 	public String getIndependentProcessName() {
 		return independentProcessName;

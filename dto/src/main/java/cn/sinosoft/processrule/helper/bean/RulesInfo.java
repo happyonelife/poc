@@ -1,11 +1,20 @@
 package cn.sinosoft.processrule.helper.bean;
 
-public class RulesInfo {
+import java.io.Serializable;
+
+public class RulesInfo implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String ruleModule = "process";//模块 流程process，业务buiness，派工dispatcher，同步sync
 	private String ruleContainerVersion = "";//规则容器版本
 	private String ruleProcessName = "main";//主流程
 	private String sessionName = "main";//会话名字
 	private String isSubmitRemoteRuleEX = "N";
+	
+	
+	public RulesInfo() {}
 	public String getRuleModule() {
 		return ruleModule;
 	}

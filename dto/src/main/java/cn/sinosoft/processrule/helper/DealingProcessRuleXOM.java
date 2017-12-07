@@ -22,8 +22,7 @@ public class DealingProcessRuleXOM implements Serializable{
 	private ProcessRuleFields ruleFields = new ProcessRuleFields();
 	private SyncRuleFields syncRuleFields = new SyncRuleFields();
 	
-	public DealingProcessRuleXOM() {
-	}
+	public DealingProcessRuleXOM() {}
 	
 	
 
