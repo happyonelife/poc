@@ -56,6 +56,7 @@ import com.sinosoft.bpm.rule.bean.dto.Rulesurvey;
 
 import cn.sinosoft.claim.assem.page.check.SimpleCasePage;
 import cn.sinosoft.claim.base.entity.rulerisk.PrplAutoUndwrtRuleInfoEntity;
+import cn.sinosoft.processrule.helper.bean.RulesInfo;
 
 
 
@@ -221,8 +222,10 @@ public class RuleProcessInputXOM  implements Serializable{
 	
 	private RuleCarPriceAndVerify ruleCarPriceAndVerify = new RuleCarPriceAndVerify();
 	
+	private RulesInfo rulesInfo = new RulesInfo();//调用规则信息
 	/**通赔*/
 	private RuleAnyPay ruleAnyPay = new RuleAnyPay();
+	
 	
 	public String getCurrentTaskPowerLevel() {
 		return currentTaskPowerLevel;
@@ -679,6 +682,12 @@ public class RuleProcessInputXOM  implements Serializable{
 	}
 	public void setRuleAnyPay(RuleAnyPay ruleAnyPay) {
 		this.ruleAnyPay = ruleAnyPay;
+	}
+	public RulesInfo getRulesInfo() {
+		return rulesInfo;
+	}
+	public void setRulesInfo(RulesInfo rulesInfo) {
+		this.rulesInfo = rulesInfo;
 	}
 	
 }

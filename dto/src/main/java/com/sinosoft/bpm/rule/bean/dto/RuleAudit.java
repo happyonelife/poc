@@ -41,6 +41,8 @@ public class RuleAudit implements Serializable{
 	private String isAutoSubmitCarLossPriceGradually = "N";
 	/** 车辆核损审核是否自动逐级提交*/
 	private String isAutoComplateCarLossVerify = "N";
+	/** 人伤首调审核任务是否自动完成*/
+	private String isAutoComplatePersonInvestigateAudit = "N";
 	/** 人伤调解审核通过级别*/
 	private String presonMediateLevel = "9";
 	/** 通融案件的每个级别伤分配的人*/
@@ -197,6 +199,14 @@ public class RuleAudit implements Serializable{
 
 	public void setIsAutoComplateCarLossVerify(String isAutoComplateCarLossVerify) {
 		this.isAutoComplateCarLossVerify = isAutoComplateCarLossVerify;
+	}
+
+	public String getIsAutoComplatePersonInvestigateAudit() {
+		return isAutoComplatePersonInvestigateAudit;
+	}
+
+	public void setIsAutoComplatePersonInvestigateAudit(String isAutoComplatePersonInvestigateAudit) {
+		this.isAutoComplatePersonInvestigateAudit = isAutoComplatePersonInvestigateAudit;
 	}
 	
 }
