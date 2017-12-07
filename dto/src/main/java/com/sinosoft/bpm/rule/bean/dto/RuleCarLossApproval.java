@@ -13,7 +13,11 @@ import cn.sinosoft.claim.base.page.car.PrpLcarComponentPage;
  *
  */
 public class RuleCarLossApproval implements Serializable{
-		/**
+	
+	public RuleCarLossApproval() {
+		// TODO Auto-generated constructor stub
+	}
+	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;

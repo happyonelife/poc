@@ -10,6 +10,10 @@ import java.util.Map;
  *
  */
 public class RuleRiskAudit implements Serializable{
+	
+	public RuleRiskAudit() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

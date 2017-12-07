@@ -6,6 +6,10 @@ import javax.persistence.Embeddable;
 @Embeddable
 @SuppressWarnings("serial")
 public class PrplAutoUndwrtRuleInfoEntityId implements java.io.Serializable{
+	
+	public PrplAutoUndwrtRuleInfoEntityId() {
+		// TODO Auto-generated constructor stub
+	}
 	/**序号*/
 	private java.lang.String serialNo;
 	/**事故号*/	

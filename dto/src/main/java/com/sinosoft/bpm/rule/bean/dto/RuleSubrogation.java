@@ -3,6 +3,10 @@ package com.sinosoft.bpm.rule.bean.dto;
 import java.io.Serializable;
 
 public class RuleSubrogation implements Serializable{
+	
+	public RuleSubrogation() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

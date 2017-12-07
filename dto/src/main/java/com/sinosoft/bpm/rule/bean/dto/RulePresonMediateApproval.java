@@ -9,6 +9,10 @@ import java.io.Serializable;
  *
  */
 public class RulePresonMediateApproval implements Serializable{
+	
+	public RulePresonMediateApproval() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

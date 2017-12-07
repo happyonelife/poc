@@ -8,6 +8,10 @@ import java.io.Serializable;
  *
  */
 public class RuleSimpleCase implements Serializable{
+	
+	public RuleSimpleCase() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

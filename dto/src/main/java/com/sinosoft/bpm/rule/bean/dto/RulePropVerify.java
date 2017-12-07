@@ -8,6 +8,9 @@ import java.io.Serializable;
  *
  */
 public class RulePropVerify implements Serializable{
+	
+	public RulePropVerify() {
+	}
 		/**
 	 * 
 	 */

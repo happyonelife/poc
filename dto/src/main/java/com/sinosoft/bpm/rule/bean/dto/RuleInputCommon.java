@@ -8,7 +8,10 @@ import java.io.Serializable;
  *
  */
 public class RuleInputCommon implements Serializable{
-
+	
+	public RuleInputCommon() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

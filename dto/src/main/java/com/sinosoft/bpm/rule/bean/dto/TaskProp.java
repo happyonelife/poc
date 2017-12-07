@@ -9,6 +9,9 @@ import java.io.Serializable;
  * Time: 下午3:47
  */
 public class TaskProp implements Serializable{
+	
+	public TaskProp() {
+	}
 	/**
 	 * 
 	 */

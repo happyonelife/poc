@@ -8,7 +8,11 @@ import java.io.Serializable;
  *
  */
 public class RuleDispute implements Serializable{
-		/**
+	
+	public RuleDispute() {
+		// TODO Auto-generated constructor stub
+	}
+	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;

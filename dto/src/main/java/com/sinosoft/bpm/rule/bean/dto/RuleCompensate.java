@@ -9,6 +9,10 @@ import java.io.Serializable;
  *
  */
 public class RuleCompensate implements Serializable{
+	
+	public RuleCompensate() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

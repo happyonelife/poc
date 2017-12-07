@@ -8,6 +8,9 @@ import java.io.Serializable;
  *
  */
 public class RulePropLossAssessment implements Serializable{
+	
+	public RulePropLossAssessment() {
+	}
 		/**
 	 * 
 	 */

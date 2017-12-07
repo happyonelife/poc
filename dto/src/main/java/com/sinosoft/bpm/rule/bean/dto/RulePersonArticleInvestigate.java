@@ -9,7 +9,10 @@ import java.io.Serializable;
  *
  */
 public class RulePersonArticleInvestigate implements Serializable{
-
+	
+	public RulePersonArticleInvestigate() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

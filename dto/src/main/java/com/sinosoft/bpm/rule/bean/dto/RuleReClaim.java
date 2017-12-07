@@ -8,6 +8,11 @@ import java.io.Serializable;
  *
  */
 public class RuleReClaim implements Serializable{
+	
+	public RuleReClaim() {
+		// TODO Auto-generated constructor stub
+	}
+
 	/**
 	 * 
 	 */

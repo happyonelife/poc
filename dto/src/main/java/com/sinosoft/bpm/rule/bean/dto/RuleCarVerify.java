@@ -9,7 +9,11 @@ import java.io.Serializable;
  *
  */
 public class RuleCarVerify implements Serializable{
-		/**
+	
+	public RuleCarVerify() {
+		// TODO Auto-generated constructor stub
+	}
+	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;

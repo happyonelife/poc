@@ -9,6 +9,9 @@ import java.io.Serializable;
  *
  */
 public class RuleCarPriceApproval implements Serializable{
+	
+	public RuleCarPriceApproval() {
+	}
 		/**
 	 * 
 	 */

@@ -3,7 +3,11 @@ package cn.sinosoft.claim.assem.page.check;
 import java.io.Serializable;
 
 public class SimpleCasePage implements Serializable{
+	
 
+	public SimpleCasePage() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

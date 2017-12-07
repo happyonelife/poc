@@ -5,7 +5,11 @@ import java.util.Date;
 import com.sinosoft.bpm.def.type.BpmConStant;
 
 public class Process{
+	
 
+	public Process() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 流程id
 	 */

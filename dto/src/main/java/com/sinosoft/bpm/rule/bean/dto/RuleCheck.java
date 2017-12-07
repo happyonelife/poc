@@ -10,6 +10,9 @@ import java.util.Date;
  *
  */
 public class RuleCheck implements Serializable{
+	public RuleCheck() {
+		// TODO Auto-generated constructor stub
+	}
 		/**
 	 * 
 	 */

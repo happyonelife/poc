@@ -8,6 +8,10 @@ import java.io.Serializable;
  *
  */
 public class RuleSchedule implements Serializable{
+	
+	public RuleSchedule() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

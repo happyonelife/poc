@@ -9,6 +9,10 @@ import java.io.Serializable;
  *
  */
 public class RuleCarVerip implements Serializable{
+	
+	public RuleCarVerip() {
+		// TODO Auto-generated constructor stub
+	}
 		/**
 	 * 
 	 */

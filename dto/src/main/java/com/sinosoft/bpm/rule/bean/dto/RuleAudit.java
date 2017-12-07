@@ -7,6 +7,11 @@ import java.util.Map;
 import com.sinosoft.bpm.rule.bean.model.RuleProcessInputXOM;
 
 public class RuleAudit implements Serializable{
+	
+	public RuleAudit() {
+		// TODO Auto-generated constructor stub
+	}
+
 	/**
 	 * 
 	 */

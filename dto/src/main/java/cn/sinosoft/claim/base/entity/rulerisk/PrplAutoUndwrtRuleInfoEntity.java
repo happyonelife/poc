@@ -11,7 +11,10 @@ import javax.persistence.Table;
 @Table(name = "prplautoundwrtruleinfo", schema = "")
 @SuppressWarnings("serial")
 public class PrplAutoUndwrtRuleInfoEntity implements java.io.Serializable{
-	
+	public PrplAutoUndwrtRuleInfoEntity() {
+		// TODO Auto-generated constructor stub
+	}
+
 	/**id*/
 	private PrplAutoUndwrtRuleInfoEntityId id;
 	/**规则编号*/

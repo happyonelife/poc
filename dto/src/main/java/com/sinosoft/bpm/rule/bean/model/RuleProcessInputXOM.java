@@ -67,6 +67,8 @@ import cn.sinosoft.processrule.helper.bean.RulesInfo;
  *
  */
 public class RuleProcessInputXOM  implements Serializable{
+	
+	public RuleProcessInputXOM() {}
 	/**
 	 * 
 	 */

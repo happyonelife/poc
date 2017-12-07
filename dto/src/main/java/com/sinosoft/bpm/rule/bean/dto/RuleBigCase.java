@@ -4,6 +4,11 @@ import java.io.Serializable;
 
 
 public class RuleBigCase implements Serializable{
+	
+	public RuleBigCase() {
+		// TODO Auto-generated constructor stub
+	}
+
 	/**
 	 * 
 	 */

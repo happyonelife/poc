@@ -9,6 +9,9 @@ import java.io.Serializable;
  *
  */
 public class RulePresonMediateVerify implements Serializable{
+	
+	public RulePresonMediateVerify() {
+	}
 	/**
 	 * 
 	 */

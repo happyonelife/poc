@@ -8,6 +8,10 @@ import java.io.Serializable;
  *
  */
 public class RulePayment implements Serializable{
+	
+	public RulePayment() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

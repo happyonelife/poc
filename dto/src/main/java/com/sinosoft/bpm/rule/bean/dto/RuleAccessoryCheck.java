@@ -8,6 +8,11 @@ import java.io.Serializable;
  *
  */
 public class RuleAccessoryCheck  implements Serializable{
+	
+	public RuleAccessoryCheck() {
+		// TODO Auto-generated constructor stub
+	}
+
 		/**
 	 * 
 	 */

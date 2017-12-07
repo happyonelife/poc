@@ -13,6 +13,11 @@ import com.sinosoft.bpm.exe.ActionHandler;
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Action implements ActionHandler {
+	
+	public Action() {
+		// TODO Auto-generated constructor stub
+	}
+
 	/**
 	 * 
 	 */

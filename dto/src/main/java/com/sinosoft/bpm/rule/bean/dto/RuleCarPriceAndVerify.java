@@ -3,6 +3,11 @@ package com.sinosoft.bpm.rule.bean.dto;
 import java.io.Serializable;
 
 public class RuleCarPriceAndVerify implements Serializable{
+	
+	public RuleCarPriceAndVerify() {
+		// TODO Auto-generated constructor stub
+	}
+
 	/**
 	 * 
 	 */

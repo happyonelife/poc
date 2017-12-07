@@ -5,6 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TaskCatalog implements Serializable{
+	
+	public TaskCatalog() {
+	}
 	/**
 	 * 
 	 */

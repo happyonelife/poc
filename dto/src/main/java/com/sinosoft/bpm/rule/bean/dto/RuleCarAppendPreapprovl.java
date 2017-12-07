@@ -8,6 +8,10 @@ import java.io.Serializable;
  *
  */
 public class RuleCarAppendPreapprovl implements Serializable{
+	
+	public RuleCarAppendPreapprovl() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

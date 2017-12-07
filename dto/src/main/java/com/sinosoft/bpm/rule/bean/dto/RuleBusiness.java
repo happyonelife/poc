@@ -8,6 +8,10 @@ import java.io.Serializable;
  *
  */
 public class RuleBusiness implements Serializable{
+	
+	public RuleBusiness() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

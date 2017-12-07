@@ -9,6 +9,11 @@ import java.io.Serializable;
  *
  */
 public class RulePrpallFeedback implements Serializable{
+	
+
+	public RulePrpallFeedback() {
+		// TODO Auto-generated constructor stub
+	}
 
 	/**
 	 * 
@@ -16,5 +21,14 @@ public class RulePrpallFeedback implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	public String serializationConfig;
+
+	public String getSerializationConfig() {
+		return serializationConfig;
+	}
+
+	public void setSerializationConfig(String serializationConfig) {
+		this.serializationConfig = serializationConfig;
+	}
+	
 
 }

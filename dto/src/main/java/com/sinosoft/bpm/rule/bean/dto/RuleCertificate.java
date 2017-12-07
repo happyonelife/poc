@@ -9,6 +9,10 @@ import java.io.Serializable;
  *
  */
 public class RuleCertificate implements Serializable{
+	
+	public RuleCertificate() {
+		// TODO Auto-generated constructor stub
+	}
 
 	/**
 	 * 

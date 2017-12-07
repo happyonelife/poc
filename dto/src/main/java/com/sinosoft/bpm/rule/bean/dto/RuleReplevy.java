@@ -8,6 +8,9 @@ import java.io.Serializable;
  *
  */
 public class RuleReplevy implements Serializable{
+	
+	public RuleReplevy() {
+	}
 		/**
 	 * 
 	 */

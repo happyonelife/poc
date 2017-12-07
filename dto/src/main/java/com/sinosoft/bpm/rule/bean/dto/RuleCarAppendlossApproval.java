@@ -8,6 +8,11 @@ import java.io.Serializable;
  *
  */
 public class RuleCarAppendlossApproval implements Serializable{
+	
+	
+	public RuleCarAppendlossApproval() {
+		// TODO Auto-generated constructor stub
+	}
 		/**
 	 * 
 	 */

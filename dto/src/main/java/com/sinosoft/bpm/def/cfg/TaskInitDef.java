@@ -2,6 +2,10 @@ package com.sinosoft.bpm.def.cfg;
 
 
 public class TaskInitDef {
+	
+	public TaskInitDef() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 任务类型
 	 */

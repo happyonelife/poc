@@ -8,6 +8,9 @@ import java.io.Serializable;
  *
  */
 public class RuleUndwrt implements Serializable{
+	
+	public RuleUndwrt() {
+	}
 		/**
 	 * 
 	 */

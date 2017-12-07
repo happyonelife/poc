@@ -8,6 +8,10 @@ import java.io.Serializable;
  *
  */
 public class RuleRepairCheck implements Serializable{
+	
+	public RuleRepairCheck() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

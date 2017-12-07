@@ -8,6 +8,10 @@ import java.io.Serializable;
  *
  */
 public class RulePersonLossAssessment implements Serializable{
+	
+	public RulePersonLossAssessment() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

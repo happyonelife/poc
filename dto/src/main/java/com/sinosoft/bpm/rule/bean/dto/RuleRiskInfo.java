@@ -12,6 +12,7 @@ import java.io.Serializable;
  * 
  */
 public class RuleRiskInfo implements Serializable{
+	
 	/**
 	 * 
 	 */

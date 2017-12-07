@@ -9,7 +9,11 @@ import java.io.Serializable;
  *
  */
 public class RulePersonAppendLossApproval implements Serializable{
-		/**
+	
+	public RulePersonAppendLossApproval() {
+		// TODO Auto-generated constructor stub
+	}
+	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;

@@ -12,6 +12,11 @@ import java.io.Serializable;
  * 
  */
 public class RulePersonCheck implements Serializable{
+	
+	public RulePersonCheck() {
+		// TODO Auto-generated constructor stub
+	}
+
 	/**
 	 * 
 	 */

@@ -8,6 +8,11 @@ import java.io.Serializable;
  *
  */
 public class RulePartAudit implements Serializable{
+	
+	public RulePartAudit() {
+		// TODO Auto-generated constructor stub
+	}
+
 	/**
 	 * 
 	 */

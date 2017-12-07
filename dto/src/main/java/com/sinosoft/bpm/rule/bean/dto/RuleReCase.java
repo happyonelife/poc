@@ -8,6 +8,9 @@ import java.io.Serializable;
  *
  */
 public class RuleReCase implements Serializable{
+	public RuleReCase() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

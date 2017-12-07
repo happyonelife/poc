@@ -9,6 +9,11 @@ import java.util.List;
  * Time: 下午3:44
  */
 public class RuleResponse implements Serializable{
+	
+	public RuleResponse() {
+		// TODO Auto-generated constructor stub
+	}
+
 	/**
 	 * 
 	 */

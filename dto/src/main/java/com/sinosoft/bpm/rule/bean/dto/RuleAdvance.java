@@ -8,6 +8,12 @@ import java.io.Serializable;
  *
  */
 public class RuleAdvance implements Serializable{
+	
+	
+	public RuleAdvance() {
+		// TODO Auto-generated constructor stub
+	}
+
 	/**
 	 * 
 	 */

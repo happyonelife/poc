@@ -9,6 +9,10 @@ import java.util.Date;
  *
  */
 public class RuleRegist implements Serializable{
+	
+	public RuleRegist() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

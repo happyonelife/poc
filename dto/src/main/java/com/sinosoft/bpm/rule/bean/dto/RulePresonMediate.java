@@ -8,7 +8,11 @@ import java.io.Serializable;
  *
  */
 public class RulePresonMediate implements Serializable{
-		/**
+	
+	public RulePresonMediate() {
+		// TODO Auto-generated constructor stub
+	}
+	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;

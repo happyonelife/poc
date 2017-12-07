@@ -16,6 +16,7 @@ import com.sinosoft.bpm.rule.bean.dto.TaskType;
  *
  */
 public class RuleProcessOutputXOM  implements Serializable{
+	public RuleProcessOutputXOM() {}
 	/**
 	 * 
 	 */

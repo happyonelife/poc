@@ -8,6 +8,11 @@ import java.io.Serializable;
  *
  */
 public class RulePresonTrack implements Serializable{
+	
+	public RulePresonTrack() {
+		// TODO Auto-generated constructor stub
+	}
+
 	/**
 	 * 
 	 */

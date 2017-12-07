@@ -3,6 +3,11 @@ package com.sinosoft.bpm.rule.bean.dto;
 import java.io.Serializable;
 
 public class RuleAnyPay implements Serializable {
+	
+
+	public RuleAnyPay() {
+		// TODO Auto-generated constructor stub
+	}
 
 	/**
 	 * 

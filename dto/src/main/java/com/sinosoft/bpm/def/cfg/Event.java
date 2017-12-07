@@ -12,7 +12,10 @@ import javax.xml.bind.annotation.XmlTransient;
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Event {
-
+	
+	public Event() {
+		// TODO Auto-generated constructor stub
+	}
 	public static final String EVENTTYPE_TASK_CREATE = "task-create";
 	public static final String EVENTTYPE_TASK_ASSIGN = "task-assign";
 	public static final String EVENTTYPE_TASK_START = "task-start";

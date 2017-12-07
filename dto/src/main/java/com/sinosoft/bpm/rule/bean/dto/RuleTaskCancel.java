@@ -9,6 +9,10 @@ import java.io.Serializable;
  */
 
 public class RuleTaskCancel implements Serializable{
+	
+	public RuleTaskCancel() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

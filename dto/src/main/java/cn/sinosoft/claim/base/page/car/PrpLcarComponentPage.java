@@ -11,6 +11,10 @@ import java.math.BigDecimal;
  *
  */
 public class PrpLcarComponentPage implements java.io.Serializable,Comparable<PrpLcarComponentPage>{
+	
+	public PrpLcarComponentPage() {
+		// TODO Auto-generated constructor stub
+	}
 	private static final long serialVersionUID = 1L;
 	/**页面显示险别*/
 	private String lossApprovalKindNameLast;

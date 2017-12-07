@@ -6,6 +6,11 @@ import java.io.Serializable;
  *
  */
 public class RuleRequest implements Serializable{
+	
+	public RuleRequest() {
+		// TODO Auto-generated constructor stub
+	}
+
 	/**
 	 * 
 	 */

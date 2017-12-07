@@ -9,6 +9,10 @@ import java.io.Serializable;
  * Time: 下午3:47
  */
 public class ProcessProp implements Serializable{
+	
+	public ProcessProp() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

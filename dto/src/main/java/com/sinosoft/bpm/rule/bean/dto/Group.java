@@ -4,6 +4,10 @@ import java.io.Serializable;
 
 
 public class Group implements Serializable{
+	
+	public Group() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */

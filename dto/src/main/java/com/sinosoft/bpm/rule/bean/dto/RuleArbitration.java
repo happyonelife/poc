@@ -9,6 +9,10 @@ import java.io.Serializable;
  *
  */
 public class RuleArbitration implements Serializable{
+	
+	public RuleArbitration() {
+		// TODO Auto-generated constructor stub
+	}
 		/**
 	 * 
 	 */

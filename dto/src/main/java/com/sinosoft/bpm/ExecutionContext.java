@@ -15,6 +15,10 @@ import com.sinosoft.bpm.def.cfg.TaskInitDef;
  * action动作执行时,该动作相关的参数
  */
 public class ExecutionContext {
+	
+	public ExecutionContext() {
+		// TODO Auto-generated constructor stub
+	}
 	protected Event event;
 	protected Action action;
 	/**
